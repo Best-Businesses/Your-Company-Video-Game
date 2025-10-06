@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galactic Defense</title>
+    <title>Your Company Name</title>
     <style>
         body {
             margin: 0;
@@ -135,7 +135,7 @@
 </head>
 <body>
     <canvas id="game"></canvas>
-    <div id="gameTitle" class="hidden">GALACTIC DEFENSE</div>
+    <div id="gameTitle" class="hidden">Your Company Name</div>
     <div id="levelTransition"></div>
     <button id="pauseButton">PAUSE</button>
     <div id="pauseScreen">
@@ -821,7 +821,7 @@
             
             const titleSize = isMobile ? 36 : 72;
             ctx.font = `bold ${titleSize}px Courier New`;
-            ctx.fillText('GALACTIC DEFENSE', centerX, centerY - 100);
+            ctx.fillText('', centerX, centerY - 100);
             
             ctx.shadowBlur = 20;
             const subtitleSize = isMobile ? 18 : 32;
